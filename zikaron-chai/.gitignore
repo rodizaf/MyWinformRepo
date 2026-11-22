@@ -1,2 +1,4 @@
 # Private family demo videos: kept local, never pushed
 demos/
+# Large video renders are delivered directly, not stored in git
+*.mp4
