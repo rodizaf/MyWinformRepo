@@ -51,3 +51,73 @@
 2. שולחים לי אותה כאן בצ׳אט, עם ״הזמנה חדשה״ ומה הלקוח ביקש (תנועה, חיבוק, מונטאז׳).
 3. אני מחזיר תצוגה מקדימה עם סימן מים ← מעבירים ללקוח עם **/תצוגה**.
 4. הלקוח שילם ← כותבים לי ״שולם״ ← אני שולח את הקובץ הנקי ← מעבירים ללקוח.
+
+## Русский: быстрые ответы
+**/привет** (приветствие)
+```
+Здравствуйте! 👋 Спасибо, что написали в Зикарон Хай.
+Пришлите сюда фото (достаточно сфотографировать бумажный снимок на телефон).
+В течение 24 часов пришлём бесплатный предпросмотр 🎁
+```
+**/цены**
+```
+Одно мгновение: одно фото, реставрация, цвет и короткое видео: 49 ₪
+Семейный: 5 фото и видеофильм с музыкой: 149 ₪ (выгоднее всего)
+Альбом памяти: 10 фото и видео от 1 до 2 минут с именами и датами: 249 ₪
+Оплата только после того, как вы увидели предпросмотр и он вам понравился.
+```
+**/оплата**
+```
+Оплатить можно через Bit на номер 054-549-2399. Сразу после оплаты отправим полное видео 🎬
+```
+
+## English: quick replies
+**/hi** (greeting)
+```
+Hi! 👋 Thanks for contacting Zikaron Chai.
+Send a photo here (a phone snapshot of a printed photo is enough).
+Within 24 hours you'll get a free preview 🎁
+```
+**/prices**
+```
+One Moment: one photo, restoration, color and a short video: ₪49
+The Family: 5 photos and a montage video with music: ₪149 (best value)
+Memory Album: 10 photos and a 1 to 2 minute video with names and dates: ₪249
+You pay only after you've seen the preview and loved it.
+```
+**/pay**
+```
+In Israel you can pay by Bit to 054-549-2399. From abroad we'll send you a secure payment link. The full video is sent right after payment 🎬
+```
+
+## Consent before sharing a family's video (send after delivery)
+```
+תודה! לפני שנשתף, נשמח לאישור שלכם:
+איפה מותר: אינסטגרם / פייסבוק / טיקטוק / יוטיוב / האתר
+גם בפרסום ממומן בעתיד? כן / לא
+להראות פנים, או רק את המסך והידיים?
+האם מי שמופיע בסרטון התגובה מסכים/ה גם?
+מותר להציג את התמונה של [שם] ז״ל?
+אפשר לבטל את האישור מתי שתרצו, ונוריד את הפרסום.
+```
+(This is not legal text. It's worth having a lawyer review it.)
+
+## Message to a group admin (before any post)
+**עברית**
+```
+היי [שם], אני [שם פרטי] ומשחזר ומנפיש תמונות משפחתיות ישנות.
+אשמח להציע לקבוצה מתנה: אשחזר ואנפיש בחינם 3 תמונות אייקוניות מהקבוצה (אתם בוחרים אילו),
+ואם תאשרו, אפרסם גם 10 מקומות חינם לחברי הקבוצה. מסכים/ה?
+```
+**Русский**
+```
+Здравствуйте, [имя]! Меня зовут [имя], я реставрирую и оживляю старые семейные фото.
+Хочу предложить группе подарок: бесплатно оживлю 3 знаковых фото из группы (вы выбираете какие),
+а если разрешите, опубликую 10 бесплатных мест для участников. Можно?
+```
+**English**
+```
+Hi [name], I'm [first name] and I restore and animate old family photos.
+I'd like to offer the group a gift: I'll restore and animate 3 iconic photos from the group for free (you choose which),
+and with your permission I'll post 10 free spots for members. Would that be OK?
+```

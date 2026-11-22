@@ -1,23 +1,24 @@
 # Зикарон Хай / Zikaron Chai · posts in Russian and English
 
-## Russian: group post for the "10 free" campaign
+## Russian: group post for the "10 families, 10 stories" campaign
 ```
-Ищем 10 старых фотографий, чтобы оживить их бесплатно 🎁
-
-Мы новый маленький бизнес из Израиля: реставрируем семейные фотографии, раскрашиваем их, и снимок оживает на несколько секунд. Бабушка улыбается, дедушка поднимает взгляд, двое обнимаются.
-
-Перед запуском сделаем это бесплатно для 10 семей. Взамен просим только пару слов о результате.
-Интересно? Напишите «я» в комментариях или в личные сообщения 🙂
-
-Примеры: zikaronhai.higgsfield.app/ru
+Меня зовут [имя], я открыл в Израиле небольшой бизнес: оживляю старые семейные фотографии.
+Реставрация, цвет и несколько секунд мягкого движения: улыбка, взгляд.
+До официального запуска 10 семей получат это бесплатно (пакет «Одно мгновение»).
+Как участвовать: пришлите в личные сообщения или в WhatsApp 054-549-2399
+фото и пару предложений о человеке на нём. Выбираем по истории, это не розыгрыш.
+Запись до воскресенья 29.11, 22:00. Бесплатно, без данных карты.
+Если захотите потом рассказать, что думаете, будем рады, но это не условие.
+Результат создан с помощью ИИ. Примеры: zikaronhai.higgsfield.app/ru
+(Опубликовано с разрешения администраторов группы 🙏)
 ```
 
-## Russian: Victory Day angle (use from late April)
+## Russian: Victory Day (from 29 April, tribute, not a sale)
 ```
-Дедушка в военной форме. Фото, которое хранится в семье 80 лет.
-Мы можем вернуть ему цвет и движение: он поднимет взгляд и улыбнётся правнукам.
-Подарок к 9 Мая, который запомнится ❤️
-Бесплатный предпросмотр в WhatsApp: zikaronhai.higgsfield.app/ru
+Помним. Гордимся.
+Фото дедушки в военной форме, которое семья хранит 80 лет.
+Мы можем бережно вернуть ему цвет и лёгкое движение.
+Фиксированная цена, без акций. Бесплатный предпросмотр в WhatsApp: zikaronhai.higgsfield.app/ru
 ```
 
 ## Russian: first captions
@@ -27,17 +28,19 @@
 | Объятие | Объятие со старой свадебной фотографии 🥹 | Представьте это с фото ваших бабушки и дедушки. |
 | Собака | Он вырос вместе с нами... | Собака, с которой вы выросли, ещё раз виляет хвостом 🐾 |
 
-## English: group post for the "10 free" campaign
+## English: group post for the "10 families, 10 stories" campaign
 ```
-Looking for 10 old family photos to bring back to life, for free 🎁
-
-We're a small new business from Israel. We restore family photos, add color, and let the photo come alive for a few seconds: Grandma smiles, Grandpa looks up, a couple hugs again.
-
-Before we launch, we'll do it free for 10 families, in exchange for a few words about the result.
-Interested? Comment "me" or send us a message 🙂
-
-Examples: zikaronhai.higgsfield.app/en
+I'm [first name], and I've started a small business in Israel that brings old family photos back to life:
+restoration, color, and a few seconds of gentle motion, a smile or a glance.
+Before the official launch, 10 families will get it free ("One Moment" package).
+How to join: send a private message or WhatsApp +972 54-549-2399
+with a photo and two sentences about the person in it. Chosen by story, not a raffle.
+Open until Sunday 29 Nov, 22:00 Israel time. No payment, no card details needed.
+If you'd like to tell us what you thought afterwards, we'd love that, but it's not a condition.
+The result is an AI-generated simulation. Examples: zikaronhai.higgsfield.app/en
+(Posted with the group admins' permission 🙏)
 ```
+**Where first:** Bn4es (business posts welcome). In Secret Tel Aviv / Secret Jerusalem / Tracing the Tribe: personal stories only, ask the admin first.
 
 ## English: first captions
 | Video | Hook | Caption |
