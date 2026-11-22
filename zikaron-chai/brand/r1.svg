@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <title>Film heart with play button</title>
+  <g id="film-strip">
+    <path fill="#E8735A" fill-rule="evenodd" d="M512 211C456 124 382 80 292 80 137 80 24 213 24 378 24 582 231 793 485 973Q512 992 539 973C793 793 1000 582 1000 378 1000 213 887 80 732 80 642 80 568 124 512 211ZM512 330C441 242 379 198 292 198 205 198 142 278 142 378 142 526 311 709 512 843 713 709 882 526 882 378 882 278 819 198 732 198 645 198 583 242 512 330Z" />
+    <g id="sprocket-holes" fill="#222222">
+      <rect x="264" y="111" width="56" height="56" rx="10" />
+      <rect x="704" y="111" width="56" height="56" rx="10" />
+      <rect x="164" y="136" width="56" height="56" rx="10" transform="rotate(-30 192 164)" />
+      <rect x="804" y="136" width="56" height="56" rx="10" transform="rotate(30 832 164)" />
+      <rect x="359" y="136" width="56" height="56" rx="10" transform="rotate(30 387 164)" />
+      <rect x="609" y="136" width="56" height="56" rx="10" transform="rotate(-30 637 164)" />
+      <rect x="438" y="193" width="48" height="48" rx="9" transform="rotate(42 462 217)" />
+      <rect x="538" y="193" width="48" height="48" rx="9" transform="rotate(-42 562 217)" />
+      <rect x="88" y="212" width="56" height="56" rx="10" transform="rotate(31 116 240)" />
+      <rect x="880" y="212" width="56" height="56" rx="10" transform="rotate(-31 908 240)" />
+      <rect x="48" y="311" width="56" height="56" rx="10" transform="rotate(14 76 339)" />
+      <rect x="920" y="311" width="56" height="56" rx="10" transform="rotate(-14 948 339)" />
+      <rect x="49" y="418" width="56" height="56" rx="10" transform="rotate(-12 77 446)" />
+      <rect x="919" y="418" width="56" height="56" rx="10" transform="rotate(12 947 446)" />
+      <rect x="89" y="515" width="56" height="56" rx="10" transform="rotate(-30 117 543)" />
+      <rect x="879" y="515" width="56" height="56" rx="10" transform="rotate(30 907 543)" />
+      <rect x="149" y="599" width="56" height="56" rx="10" transform="rotate(-40 177 627)" />
+      <rect x="819" y="599" width="56" height="56" rx="10" transform="rotate(40 847 627)" />
+      <rect x="221" y="675" width="56" height="56" rx="10" transform="rotate(-44 249 703)" />
+      <rect x="747" y="675" width="56" height="56" rx="10" transform="rotate(44 775 703)" />
+      <rect x="297" y="747" width="56" height="56" rx="10" transform="rotate(-48 325 775)" />
+      <rect x="671" y="747" width="56" height="56" rx="10" transform="rotate(48 699 775)" />
+      <rect x="374" y="811" width="56" height="56" rx="10" transform="rotate(-52 402 839)" />
+      <rect x="594" y="811" width="56" height="56" rx="10" transform="rotate(52 622 839)" />
+      <rect x="484" y="872" width="56" height="56" rx="10" transform="rotate(-34 512 900)" />
+    </g>
+    <path id="overlap-seam" fill="#222222" d="M366 888C388 905 446 865 501 835L512 843C472 873 430 900 392 917Z" />
+  </g>
+  <path id="play-button" fill="#E3B341" d="M422 339 641 470C672 488 672 530 641 548L422 679C390 698 350 675 350 638V380C350 343 390 320 422 339Z" />
+</svg>

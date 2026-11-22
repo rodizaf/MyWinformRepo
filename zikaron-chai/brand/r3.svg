@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <title>Heart play film badge</title>
+  <g id="badge">
+    <circle cx="512" cy="512" r="496" fill="#222222" />
+    <circle cx="512" cy="512" r="390" fill="#E8735A" />
+    <g id="sprocket-holes" fill="#FBF7F0">
+      <rect x="488" y="48" width="48" height="48" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(15 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(30 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(45 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(60 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(75 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(90 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(105 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(120 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(135 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(150 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(165 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(180 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(195 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(210 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(225 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(240 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(255 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(270 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(285 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(300 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(315 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(330 512 512)" />
+      <rect x="488" y="48" width="48" height="48" transform="rotate(345 512 512)" />
+    </g>
+    <g id="heart-play">
+      <path fill="#E3B341" d="M512 368C471 306 408 282 352 296C271 315 222 383 226 467C230 570 339 668 512 810C685 668 794 570 798 467C802 383 753 315 672 296C616 282 553 306 512 368Z" />
+      <path fill="#FBF7F0" d="M456 417C437 406 414 420 414 442V628C414 650 437 664 456 653L612 560C631 549 631 527 612 516Z" />
+    </g>
+  </g>
+</svg>
