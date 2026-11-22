@@ -1,0 +1,338 @@
+<title>מדריך ההקמה של זכרון חי</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;900&family=Heebo:wght@400;500;700&display=swap">
+<style>
+/* Layout: one phone-first column of numbered steps; each step = checkbox + instructions + the real asset or copy box right there. */
+:root{
+  --bg:#FBF7F0; --surface:#FFFFFF; --sunk:#F2EBDF; --fg:#222222; --muted:#5E574F; --line:#E4DACB;
+  --accent:#E8735A; --accent-ink:#9E3D27; --ok:#2F7D4F;
+  --display:"Rubik","Heebo",system-ui,sans-serif; --body:"Heebo",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1C1A18; --surface:#262320; --sunk:#2F2B27; --fg:#F3EEE6; --muted:#B9B0A5; --line:#3D3833;
+  --accent:#F08A72; --accent-ink:#F6A893; --ok:#6CC08F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1C1A18; --surface:#262320; --sunk:#2F2B27; --fg:#F3EEE6; --muted:#B9B0A5; --line:#3D3833;
+  --accent:#F08A72; --accent-ink:#F6A893; --ok:#6CC08F; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:30px;font-weight:900}
+h2{font-size:22px;font-weight:900;display:flex;align-items:center;gap:10px}
+h2 .tag{font:700 13px var(--body);background:var(--accent);color:#222;border-radius:999px;padding:3px 12px}
+p{margin:0}
+.intro{display:flex;flex-direction:column;gap:10px}
+.intro p{color:var(--muted)}
+.progress{display:flex;align-items:center;gap:12px;font-weight:700}
+.bar{flex:1;height:10px;background:var(--sunk);border-radius:999px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--ok);transition:width .3s}
+.part{display:flex;flex-direction:column;gap:14px}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.step.done{border-color:var(--ok)}
+.head{display:flex;align-items:flex-start;gap:12px}
+.head input{width:26px;height:26px;accent-color:var(--ok);flex:none;margin-top:2px}
+.head label{display:flex;flex-direction:column;gap:2px;cursor:pointer;min-width:0}
+.head h3{font-size:19px;font-weight:700}
+.time{font-size:13px;color:var(--muted)}
+ol.do{margin:0;padding-inline-start:22px;display:flex;flex-direction:column;gap:8px}
+ol.do li::marker{font-weight:700;color:var(--accent-ink)}
+.tap{font-weight:700}
+.copy{background:var(--sunk);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.copy .lbl{font-size:13px;font-weight:700;color:var(--muted)}
+.copy pre{margin:0;white-space:pre-wrap;word-break:break-word;font:15px/1.55 var(--body);user-select:all}
+.copy pre[dir="ltr"]{text-align:left}
+.copy button{align-self:flex-start;font:700 14px var(--body);border:0;border-radius:10px;padding:8px 14px;background:var(--fg);color:var(--bg);cursor:pointer}
+.copy button.ok{background:var(--ok);color:#fff}
+.media{display:flex;flex-direction:column;gap:6px}
+.media img,.media video{max-width:100%;border-radius:12px;border:1px solid var(--line);background:var(--sunk)}
+.media.small img{width:160px}
+.media.tall img,.media.tall video{max-height:420px;width:auto}
+.media .cap{font-size:13px;color:var(--muted)}
+.warn{border-inline-start:4px solid var(--accent);background:var(--sunk);border-radius:8px;padding:10px 12px;font-weight:500}
+.row{display:flex;flex-wrap:wrap;gap:12px}
+.row .media{flex:1 1 140px;min-width:0}
+code{font-family:ui-monospace,Menlo,monospace;font-size:14px;background:var(--sunk);padding:1px 6px;border-radius:6px;direction:ltr;unicode-bidi:isolate}
+a{color:var(--accent-ink)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+</style>
+
+<div class="wrap" dir="rtl" lang="he">
+
+<header class="intro">
+  <h1>מדריך ההקמה של זכרון חי</h1>
+  <p>עוברים לפי הסדר. כל מה שצריך להעתיק נמצא בתוך הצעד עם כפתור ״העתקה״, וכל תמונה וסרטון מופיעים בדיוק במקום שבו משתמשים בהם. מסמנים ✓ בכל צעד שהסתיים.</p>
+  <p>לשמירת תמונה בטלפון: לחיצה ארוכה על התמונה ← ״שמירה בתמונות״. אם זה לא עובד כאן, אותם קבצים נשלחו גם בצ׳אט.</p>
+  <div class="progress"><span id="pc">0 מתוך 0</span><div class="bar"><i id="pb"></i></div></div>
+</header>
+
+<!-- ===================== PART A ===================== -->
+<section class="part">
+  <h2>חלק א׳ <span class="tag">עכשיו, מהטלפון</span></h2>
+
+  <!-- 1 -->
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s1"><label for="s1"><h3>1. להשלים את פרופיל האינסטגרם</h3><span class="time">5 דקות · אינסטגרם</span></label></div>
+    <div class="media small"><img src="profile.jpg" alt="תמונת הפרופיל של זכרון חי: עיגול קורל עם טבעת סרט צילום ולב עם כפתור פליי"><span class="cap">תמונת הפרופיל. שומרים אותה קודם בטלפון.</span></div>
+    <ol class="do">
+      <li>פותחים את אינסטגרם. אם פתוח החשבון האישי: לוחצים על <span class="tap">שם המשתמש למעלה</span> ובוחרים <code>zikaronhaisheli</code>.</li>
+      <li>לוחצים <span class="tap">״עריכת פרופיל״</span> ← <span class="tap">״עריכת תמונה״</span> ← בוחרים את התמונה ששמרתם.</li>
+      <li>לוחצים על <span class="tap">״שם״</span> ומדביקים:</li>
+    </ol>
+    <div class="copy"><span class="lbl">שם</span><pre>זכרון חי | תמונות שחוזרות לחיים</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="4">
+      <li>לוחצים על <span class="tap">״ביוגרפיה״</span> ומדביקים:</li>
+    </ol>
+    <div class="copy"><span class="lbl">ביו</span><pre>📸 תמונות ישנות של המשפחה חוזרות לחיים
+🎁 מתנה מרגשת לסבא, לסבתא ולאירועים
+💬 תצוגה מקדימה בחינם בוואטסאפ 👇</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="5">
+      <li>לוחצים <span class="tap">״קישורים״</span> ← <span class="tap">״הוספת קישור חיצוני״</span> ← מדביקים את הכתובת, ובכותרת כותבים ״להזמנה ודוגמאות״:</li>
+    </ol>
+    <div class="copy"><span class="lbl">קישור</span><pre dir="ltr">https://zikaronhai.higgsfield.app</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="6">
+      <li>שומרים. חוזרים לפרופיל ← <span class="tap">☰</span> למעלה ← <span class="tap">״סוג חשבון וכלים״</span> ← <span class="tap">״מעבר לחשבון מקצועי״</span>.</li>
+      <li>בוחרים קטגוריה <span class="tap">״צלם״</span> (Photographer) ← סוג <span class="tap">״עסק״</span>. אפשר לדלג על שאר השלבים.</li>
+    </ol>
+  </article>
+
+  <!-- 2 -->
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s2"><label for="s2"><h3>2. חימום אינסטגרם</h3><span class="time">10–15 דקות · כל יום בשבוע הראשון</span></label></div>
+    <ol class="do">
+      <li>לוחצים על <span class="tap">🔍 חיפוש</span> ומחפשים אחד אחד: <code>ישראל של פעם</code>, <code>תמונות ישנות</code>, <code>נוסטלגיה</code>, <code>שחזור תמונות</code>, <code>photo restoration</code>, ו״[העיר שלך] של פעם״.</li>
+      <li>עוקבים אחרי <b>15–20</b> חשבונות שמעלים תמונות ישנות או תוכן משפחתי. לא יותר מ-30 ביום.</li>
+      <li>עוברים ללשונית <span class="tap">הרילס</span> וגוללים כ-10 דקות. כל סרטון בנושא: לייק, ואת הטובים שומרים 🔖.</li>
+      <li>כותבים <b>3–5 תגובות אמיתיות</b>, במילים שלכם, על מה שבאמת נגע בכם. לא תגובות קבועות שמעתיקים.</li>
+    </ol>
+    <p class="warn">לא עושים: מעקב והסרה בכמויות, הודעות פרטיות לזרים, אפליקציות אוטומציה, קניית עוקבים, VPN.</p>
+  </article>
+
+  <!-- 3 -->
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s3"><label for="s3"><h3>3. לפתוח טיקטוק</h3><span class="time">10 דקות, ועוד 20 דקות גלילה</span></label></div>
+    <ol class="do">
+      <li>מורידים את <b>TikTok</b> מה-App Store ← <span class="tap">״הרשמה״</span> ← <span class="tap">״המשך עם Google״</span> ← בוחרים את <code>zikaronhaisheli@gmail.com</code>.</li>
+      <li>פרופיל ← <span class="tap">״עריכת פרופיל״</span> ← <span class="tap">״שם משתמש״</span> ← <code>zikaronhaisheli</code>.</li>
+      <li>תמונה: אותה תמונת פרופיל. שם: <code>זכרון חי</code>.</li>
+      <li>בביו מדביקים (בטיקטוק יש מגבלה של 80 תווים):</li>
+    </ol>
+    <div class="copy"><span class="lbl">ביו לטיקטוק</span><pre>תמונות של המשפחה חוזרות לחיים 🎁 תצוגה מקדימה בחינם בוואטסאפ 👇</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="5">
+      <li>פרופיל ← <span class="tap">☰</span> ← <span class="tap">״הגדרות ופרטיות״</span> ← <span class="tap">״חשבון״</span> ← <span class="tap">״מעבר לחשבון עסקי״</span> ← קטגוריה ״צילום״ או ״אמנות״.</li>
+      <li>אם מופיע שדה <span class="tap">״אתר״</span>, מדביקים את הקישור לאתר.</li>
+      <li>לפני הפוסט הראשון: 20 דקות גלילה בלשונית <span class="tap">״בשבילך״</span>. לייק לכל סרטון של נוסטלגיה, משפחה או שחזור תמונות.</li>
+    </ol>
+  </article>
+
+  <!-- 4 -->
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s4"><label for="s4"><h3>4. לפתוח דף פייסבוק</h3><span class="time">5 דקות · אפליקציית פייסבוק</span></label></div>
+    <ol class="do">
+      <li><span class="tap">☰ תפריט</span> ← <span class="tap">״דפים״</span> ← <span class="tap">״+ יצירה״</span>.</li>
+      <li>שם הדף: <code>זכרון חי</code>. קטגוריה: מקלידים <code>צלם</code> ובוחרים.</li>
+      <li>בתיאור (״ביוגרפיה״) מדביקים:</li>
+    </ol>
+    <div class="copy"><span class="lbl">תיאור הדף</span><pre>תמונות ישנות של המשפחה חוזרות לחיים: שחזור, צבע ותנועה. מתנה מרגשת לסבא, לסבתא ולאירועים. תצוגה מקדימה בחינם בוואטסאפ 054-549-2399</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="4">
+      <li>אתר: מדביקים את הקישור מצעד 1. תמונת פרופיל: אותה תמונה.</li>
+      <li>בהגדרות הדף ← <span class="tap">״שם משתמש״</span> ← <code>zikaronhaisheli</code>.</li>
+      <li>בהגדרות הדף ← <span class="tap">״חשבונות מקושרים״</span> ← <span class="tap">״אינסטגרם״</span> ← <span class="tap">״חיבור״</span> ← מתחברים ל-<code>zikaronhaisheli</code>.</li>
+    </ol>
+  </article>
+
+  <!-- 5 -->
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s5"><label for="s5"><h3>5. WhatsApp Business</h3><span class="time">15 דקות</span></label></div>
+    <ol class="do">
+      <li>מורידים את <b>WhatsApp Business</b> (אייקון ירוק עם B) ← <span class="tap">״הסכמה והמשך״</span> ← כשהוא מציע את המספר הקיים 054-549-2399: <span class="tap">״המשך״</span>. השיחות עוברות איתך.</li>
+      <li>שם העסק: <code>זכרון חי</code>. קטגוריה: <span class="tap">״צלם״</span> או ״אמנות ובידור״. תמונה: אותה תמונת פרופיל.</li>
+      <li><span class="tap">הגדרות</span> ← <span class="tap">״כלים לעסקים״</span> ← <span class="tap">״פרופיל עסקי״</span>. בתיאור מדביקים:</li>
+    </ol>
+    <div class="copy"><span class="lbl">תיאור העסק</span><pre>זכרון חי: תמונות ישנות וחדשות של המשפחה חוזרות לחיים. שחזור, צבע ותנועה. תצוגה מקדימה בחינם, משלמים רק אם אהבתם.</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="4">
+      <li>באותו מסך, באתר: <code>https://zikaronhai.higgsfield.app</code></li>
+      <li><span class="tap">״כלים לעסקים״</span> ← <span class="tap">״קטלוג״</span> ← <span class="tap">״הוספת פריט״</span>. יוצרים 3 פריטים:</li>
+    </ol>
+    <div class="copy"><span class="lbl">פריט 1 · מחיר 49 ₪</span><pre>רגע אחד
+תמונה אחת: שחזור, צבע וסרטון קצר שבו התמונה חוזרת לחיים. תצוגה מקדימה בחינם.</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">פריט 2 · מחיר 149 ₪</span><pre>המשפחתית
+5 תמונות וסרטון מונטאז׳ עם מוזיקה. הכי משתלם.</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">פריט 3 · מחיר 249 ₪</span><pre>אלבום זיכרון
+10 תמונות וסרטון של 1 עד 2 דקות עם שמות ותאריכים, מוכן להקרנה באירוע.</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="6">
+      <li><span class="tap">״כלים לעסקים״</span> ← <span class="tap">״הודעת פתיחה״</span> ← מפעילים ומדביקים:</li>
+    </ol>
+    <div class="copy"><span class="lbl">הודעת פתיחה</span><pre>היי! 👋 תודה שפניתם לזכרון חי.
+שלחו כאן תמונה. מספיק לצלם בטלפון את התמונה המודפסת.
+תוך 24 שעות תקבלו תצוגה מקדימה בחינם 🎁
+רוצים משהו מיוחד, כמו חיבוק או מונטאז׳? כתבו לנו מה תרצו לראות.</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="7">
+      <li><span class="tap">״הודעת היעדרות״</span> ← מפעילים ← ״תמיד לשלוח״ ← מדביקים:</li>
+    </ol>
+    <div class="copy"><span class="lbl">הודעת היעדרות</span><pre>קיבלנו את ההודעה! נחזור אליכם בהקדם.
+התצוגה המקדימה תגיע תוך 24 שעות 🙂</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="8">
+      <li><span class="tap">״תשובות מהירות״</span> ← <span class="tap">+</span>. לכל אחת: בשדה ״הודעה״ מדביקים את הטקסט, ובשדה ״קיצור״ את המילה שמופיעה בכותרת.</li>
+    </ol>
+    <div class="copy"><span class="lbl">קיצור: קיבלנו</span><pre>תודה! קיבלנו את התמונה 🙏 תוך 24 שעות תקבלו תצוגה מקדימה בחינם.</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">קיצור: מחירים</span><pre>רגע אחד: תמונה אחת, שחזור, צבע וסרטון קצר: 49 ₪
+המשפחתית: 5 תמונות וסרטון מונטאז׳ עם מוזיקה: 149 ₪ (הכי משתלם)
+אלבום זיכרון: 10 תמונות וסרטון של 1 עד 2 דקות עם שמות ותאריכים: 249 ₪
+משלמים רק אחרי שראיתם את התצוגה המקדימה ואהבתם.</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">קיצור: תצוגה</span><pre>הנה התצוגה המקדימה 👆
+אהבתם? אחרי התשלום נשלח את הסרטון המלא באיכות גבוהה ובלי סימן מים.
+רוצים לשנות משהו? כתבו לנו ונשפר.</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">קיצור: תשלום</span><pre>אפשר לשלם בביט למספר 054-549-2399.
+מיד אחרי התשלום נשלח את הסרטון המלא 🎬</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">קיצור: תודה</span><pre>תודה רבה! ❤️ נשמח לשמוע כמה מילים על התוצאה, אבל זה לא חובה.</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">קיצור: привет (לפונים ברוסית)</span><pre dir="ltr">Здравствуйте! 👋 Спасибо, что написали в Зикарон Хай.
+Пришлите сюда фото (достаточно сфотографировать бумажный снимок на телефон).
+В течение 24 часов пришлём бесплатный предпросмотр 🎁</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">קיצור: hi (לפונים באנגלית)</span><pre dir="ltr">Hi! 👋 Thanks for contacting Zikaron Chai.
+Send a photo here (a phone snapshot of a printed photo is enough).
+Within 24 hours you'll get a free preview 🎁</pre><button type="button">העתקה</button></div>
+    <ol class="do" start="9">
+      <li><span class="tap">״תוויות״</span> ← יוצרים 4 תוויות: <code>הזמנה חדשה</code> · <code>תצוגה נשלחה</code> · <code>שולם</code> · <code>נמסר</code>.</li>
+      <li>חוזרים לאינסטגרם ← <span class="tap">״עריכת פרופיל״</span> ← <span class="tap">״אפשרויות יצירת קשר״</span> ← <span class="tap">״וואטסאפ״</span> ← מזינים 054-549-2399.</li>
+    </ol>
+  </article>
+
+  <!-- 6 -->
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s6"><label for="s6"><h3>6. להצטרף לקבוצות ולפנות למנהלים</h3><span class="time">20 דקות · מהפרופיל האישי בפייסבוק</span></label></div>
+    <ol class="do">
+      <li>בפייסבוק לוחצים <span class="tap">🔍</span> ← מקלידים ← לשונית <span class="tap">״קבוצות״</span> ← <span class="tap">״הצטרפות״</span>. מחפשים:
+        <br>בעברית (כ-12): <code>[העיר שלך] של פעם</code>, <code>זכרונות ילדות</code>, <code>נוסטלגיה ישראלית</code>, <code>הורים [העיר שלך]</code>.
+        <br>ברוסית (6–8): <code>Израиль, 90-е. Как это было</code>, <code>русские в [город]</code>.
+        <br>באנגלית (6–8): <code>Bn4es</code> קודם, ואחריו <code>Anglos in [city]</code>.</li>
+      <li>אחרי שמאשרים אותך: נכנסים לקבוצה ← <span class="tap">״אודות״</span> ← קוראים את החוקים.</li>
+      <li>לוחצים על שם המנהל ← <span class="tap">״הודעה״</span> ← מדביקים את ההודעה בשפה של הקבוצה:</li>
+    </ol>
+    <div class="copy"><span class="lbl">הודעה למנהל · עברית</span><pre>היי [שם], אני [שם פרטי] ומשחזר ומנפיש תמונות משפחתיות ישנות.
+אשמח להציע לקבוצה מתנה: אשחזר ואנפיש בחינם 3 תמונות אייקוניות מהקבוצה (אתם בוחרים אילו),
+ואם תאשרו, אפרסם גם 10 מקומות חינם לחברי הקבוצה. מסכים/ה?</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">הודעה למנהל · רוסית</span><pre dir="ltr">Здравствуйте, [имя]! Меня зовут [имя], я реставрирую и оживляю старые семейные фото.
+Хочу предложить группе подарок: бесплатно оживлю 3 знаковых фото из группы (вы выбираете какие),
+а если разрешите, опубликую 10 бесплатных мест для участников. Можно?</pre><button type="button">העתקה</button></div>
+    <div class="copy"><span class="lbl">הודעה למנהל · אנגלית</span><pre dir="ltr">Hi [name], I'm [first name] and I restore and animate old family photos.
+I'd like to offer the group a gift: I'll restore and animate 3 iconic photos from the group for free (you choose which),
+and with your permission I'll post 10 free spots for members. Would that be OK?</pre><button type="button">העתקה</button></div>
+    <p class="warn">לא מפרסמים בקבוצה לפני שהמנהל אישר. על כל אישור שולחים לי צילום מסך, ואני מכין פוסט שמותאם לאותה קבוצה.</p>
+  </article>
+
+  <!-- 7 -->
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s7"><label for="s7"><h3>7. סטורי חנוכה</h3><span class="time">2 דקות · מהיום ועד 1.12</span></label></div>
+    <div class="row">
+      <div class="media tall"><img src="story_he.jpg" alt="סטורי חנוכה בעברית: מזמינים עד יום ג׳ 1.12"><span class="cap">עברית: לאינסטגרם ולסטטוס בוואטסאפ</span></div>
+      <div class="media tall"><img src="story_ru.jpg" alt="סטורי חנוכה ברוסית"><span class="cap">רוסית: לקבוצות ולטלגרם</span></div>
+      <div class="media tall"><img src="story_en.jpg" alt="סטורי חנוכה באנגלית"><span class="cap">אנגלית: ל-Bn4es</span></div>
+    </div>
+    <ol class="do">
+      <li>שומרים את התמונה בעברית (לחיצה ארוכה ← שמירה).</li>
+      <li>באינסטגרם: <span class="tap">+</span> למטה ← <span class="tap">״סטורי״</span> ← בוחרים את התמונה ← <span class="tap">״הסטורי שלך״</span>.</li>
+      <li>בוואטסאפ ביזנס: לשונית <span class="tap">״עדכונים״</span> ← <span class="tap">״הוספת סטטוס״</span> ← בוחרים את התמונה ← שליחה.</li>
+    </ol>
+  </article>
+
+  <!-- 8 -->
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s8"><label for="s8"><h3>8. הפוסט הראשון</h3><span class="time">הערב · טיקטוק ב-18:30, אינסטגרם ופייסבוק ב-20:30</span></label></div>
+    <div class="media tall"><video src="post_01.mp4" controls playsinline preload="metadata"></video><span class="cap">הסרטון. לשמירה בטלפון: לחיצה ארוכה עליו בצ׳אט ← שמירה.</span></div>
+    <div class="copy"><span class="lbl">הכיתוב (אותו טקסט לכל הרשתות)</span><pre>הם חיכו 100 שנה כדי לחייך שוב ❤️
+שולחים לנו תמונה ישנה, ותוך 24 שעות היא חוזרת לחיים.
+תצוגה מקדימה בחינם, הקישור בביו.
+שוחזר והונפש בבינה מלאכותית · תמונות היסטוריות
+#זכרוןחי #תמונותישנות #נוסטלגיה #סבאוסבתא</pre><button type="button">העתקה</button></div>
+    <ol class="do">
+      <li><b>טיקטוק, 18:30:</b> <span class="tap">+</span> ← <span class="tap">״העלאה״</span> ← בוחרים את הסרטון ← <span class="tap">״הבא״</span> ← מדביקים את הכיתוב ← <span class="tap">״אפשרויות נוספות״</span> ← מדליקים <span class="tap">״תוכן שנוצר ב-AI״</span> ← <span class="tap">״פרסום״</span>.</li>
+      <li><b>אינסטגרם, 20:30:</b> <span class="tap">+</span> ← <span class="tap">״רילס״</span> ← בוחרים את הסרטון ← <span class="tap">״הבא״</span> ← מדביקים את הכיתוב ← <span class="tap">״הגדרות מתקדמות״</span> ← מדליקים <span class="tap">״הוספת תווית AI״</span> ← מדליקים <span class="tap">״שיתוף לפייסבוק״</span> (כך הסרטון עולה גם לדף) ← <span class="tap">״שיתוף״</span>.</li>
+      <li>אחרי ההעלאה: מעלים את הרילס גם לסטטוס בוואטסאפ.</li>
+    </ol>
+  </article>
+</section>
+
+<!-- ===================== PART B ===================== -->
+<section class="part">
+  <h2>חלק ב׳ <span class="tag">בבית, מהמחשב</span></h2>
+
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s9"><label for="s9"><h3>9. לחבר את Metricool, כדי שאוכל לפרסם בעצמי</h3><span class="time">10 דקות · פעם אחת</span></label></div>
+    <ol class="do">
+      <li>נכנסים ל-<a href="https://app.metricool.com" target="_blank" rel="noopener">app.metricool.com</a> עם החשבון הקיים, זה שבו מנוהלים heylucybella ו-Paradise deli.</li>
+      <li>למעלה משמאל לוחצים על <span class="tap">שם המותג</span> ← <span class="tap">״+ הוספת מותג״</span> (Add brand) ← שם: <code>זכרון חי</code>.</li>
+      <li>בעמוד המותג החדש לוחצים <span class="tap">״Connect״</span> ליד <b>Instagram</b> ← מתחברים דרך פייסבוק ← בוחרים את הדף <b>זכרון חי</b> ואת <b>zikaronhaisheli</b> ← מאשרים את כל ההרשאות.</li>
+      <li><span class="tap">״Connect״</span> ליד <b>Facebook</b> ← בוחרים את הדף <b>זכרון חי</b>.</li>
+      <li><span class="tap">״Connect״</span> ליד <b>TikTok</b> ← מתחברים עם <code>zikaronhaisheli</code> ← מאשרים.</li>
+      <li>הגדרות המותג ← אזור זמן: <code>Asia/Jerusalem</code>.</li>
+    </ol>
+    <p class="warn">אם בשלב 2 מופיעה דרישת תשלום: לא משלמים. עוצרים, ועוברים לצעד 10.</p>
+  </article>
+
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s10"><label for="s10"><h3>10. רק אם Metricool ביקש תשלום</h3><span class="time">5 דקות</span></label></div>
+    <ol class="do">
+      <li><b>טיקטוק:</b> כותבים לי בצ׳אט ״חבר טיקטוק״. אשלח קישור אישור, לוחצים עליו ומאשרים. אחרי זה אני מפרסם בטיקטוק בעצמי.</li>
+      <li><b>אינסטגרם ופייסבוק:</b> נכנסים ל-<a href="https://business.facebook.com" target="_blank" rel="noopener">business.facebook.com</a> ← <span class="tap">״מתכנן״</span> (Planner). אני שולח פעם בשבוע את כל הסרטונים, הטקסטים והשעות, ואתה מתזמן אותם שם. כ-10 דקות בשבוע.</li>
+    </ol>
+  </article>
+
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s11"><label for="s11"><h3>11. לא חובה</h3><span class="time">מתי שנוח</span></label></div>
+    <ol class="do">
+      <li><b>יוטיוב:</b> ב-youtube.com מתחברים עם zikaronhaisheli@gmail.com ← יוצרים ערוץ בשם ״זכרון חי״. מעלים לשם את אותם סרטונים כשורטס.</li>
+      <li><b>PayPal:</b> ב-paypal.com פותחים חשבון עסקי, לתשלומים מלקוחות בחו״ל. מספיק כשתגיע הזמנה ראשונה מחו״ל.</li>
+    </ol>
+  </article>
+
+  <article class="step">
+    <div class="head"><input type="checkbox" id="s12"><label for="s12"><h3>12. לכתוב לי ״סיימתי״</h3><span class="time">דקה</span></label></div>
+    <p>כותבים בצ׳אט ״סיימתי״, ומה עבד ומה לא. משם אני מקים משימה יומית שמכינה ומתזמנת פוסט כל יום, מטפל בקמפיין ״10 משפחות, 10 סיפורים״, ושולח לך סיכום בכל יום א׳ ב-22:00.</p>
+  </article>
+</section>
+
+<!-- ===================== PART C ===================== -->
+<section class="part">
+  <h2>חלק ג׳ <span class="tag">כל יום, 15–20 דקות</span></h2>
+  <article class="step">
+    <ol class="do">
+      <li>10 דקות חימום: גלילה, לייקים ו-3 תגובות אמיתיות, באינסטגרם ובטיקטוק.</li>
+      <li>לענות בוואטסאפ עם התשובות המהירות (מקלידים <code>/</code> ואת הקיצור).</li>
+      <li>כל הזמנה: שולחים לי בצ׳אט את התמונה עם המילים ״הזמנה חדשה״, ואני מחזיר תצוגה מקדימה עם סימן מים.</li>
+      <li>לקוח שילם בביט: כותבים לי ״שולם״, ואני שולח את הקובץ הנקי.</li>
+    </ol>
+    <p class="warn">יום א׳ 29.11 ב-22:00: ההרשמה ל״10 משפחות״ נסגרת, ושולחים לי את כל מה שהגיע. יום ג׳ 1.12: ההזמנה האחרונה בהתחייבות לנר הראשון.</p>
+  </article>
+</section>
+
+</div>
+
+<script>
+(function(){
+  // copy buttons
+  document.querySelectorAll('.copy button').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var pre = btn.parentElement.querySelector('pre'); var text = pre.innerText;
+      function done(){ btn.textContent = 'הועתק ✓'; btn.classList.add('ok'); setTimeout(function(){ btn.textContent='העתקה'; btn.classList.remove('ok'); }, 1800); }
+      function fallback(){ var r = document.createRange(); r.selectNodeContents(pre); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = 'סומן, העתיקו ידנית'; }
+      try { navigator.clipboard.writeText(text).then(done, fallback); } catch(e){ fallback(); }
+    });
+  });
+  // progress, remembered per viewer
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('.head input'));
+  var KEY = 'zk-guide-v1';
+  var saved = {}; try { saved = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e){}
+  function update(){
+    var n = 0; boxes.forEach(function(b){ if (b.checked) n++; b.closest('.step').classList.toggle('done', b.checked); });
+    document.getElementById('pc').textContent = n + ' מתוך ' + boxes.length;
+    document.getElementById('pb').style.width = (100 * n / boxes.length) + '%';
+  }
+  boxes.forEach(function(b){
+    b.checked = !!saved[b.id];
+    b.addEventListener('change', function(){ saved[b.id] = b.checked; try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch(e){} update(); });
+  });
+  update();
+})();
+</script>
