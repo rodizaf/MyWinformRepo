@@ -75,42 +75,90 @@
 3. אני מחזיר תצוגה מקדימה עם סימן מים ← מעבירים ללקוח עם **/תצוגה**.
 4. הלקוח שילם ← כותבים לי ״שולם״ ← אני שולח את הקובץ הנקי ← מעבירים ללקוח.
 
-## Русский: быстрые ответы
-**/привет** (приветствие)
+## Русский: быстрые ответы (тот же голос: от первого лица, «пришлю», «поправлю»)
+**/привет**
 ```
-Здравствуйте! 👋 Спасибо, что написали в Зикарон Хай.
-Пришлите сюда фото (достаточно сфотографировать бумажный снимок на телефон).
-В течение 24 часов пришлём бесплатный предпросмотр 🎁
+Здравствуйте! Хорошо, что вы написали ❤️
+Кто ждёт на вашей фотографии? Бабушка? Папа? Может быть, вы сами в пять лет?
+Пришлите фото сюда (достаточно сфотографировать его на телефон) и напишите пару слов о человеке на снимке.
+В течение 24 часов пришлю вам бесплатный предпросмотр.
+И вы снова увидите их: в движении, почти рядом с вами.
 ```
 **/цены**
 ```
-Одно мгновение: одно фото, реставрация, цвет и короткое видео: 49 ₪
-Семейный: 5 фото и видеофильм с музыкой: 149 ₪ (выгоднее всего)
-Альбом памяти: 10 фото и видео от 1 до 2 минут с именами и датами: 249 ₪
-Оплата только после того, как вы увидели предпросмотр и он вам понравился.
+Есть три варианта:
+
+📸 Одно мгновение · 49 ₪
+Одна фотография оживает: реставрация, цвет и несколько секунд движения.
+
+👨‍👩‍👧 Семейный · 149 ₪ (выгоднее всего)
+5 фотографий в одном видео с музыкой. Как листать альбом, только все в нём двигаются.
+
+📖 Альбом памяти · 249 ₪
+10 фотографий в видео на минуту-две, с именами и датами. Для семейного праздника, бар-мицвы или юбилея.
+
+И главное: сначала вы бесплатно увидите предпросмотр. Платите, только если он вас тронул.
+```
+**/просмотр**
+```
+Вот 👆
+Дайте себе минутку.
+Если вас это тронуло, пришлю полное видео в высоком качестве и без водяного знака.
+А если что-то не совсем так, как вы помните, напишите, и я поправлю.
 ```
 **/оплата**
 ```
-Оплатить можно через Bit на номер 054-549-2399. Сразу после оплаты отправим полное видео 🎬
+Как здорово ❤️
+Оплатить можно через Bit на номер 054-549-2399.
+Сразу после оплаты пришлю полное видео: оно ваше, можно хранить и делиться со всей семьёй.
+```
+**/спасибо**
+```
+Спасибо, что поделились со мной этим моментом ❤️
+Если захотите рассказать, что вы почувствовали, мне будет очень приятно. Только если хочется.
 ```
 
-## English: quick replies
-**/hi** (greeting)
+## English: quick replies (same voice: first person)
+**/hi**
 ```
-Hi! 👋 Thanks for contacting Zikaron Chai.
-Send a photo here (a phone snapshot of a printed photo is enough).
-Within 24 hours you'll get a free preview 🎁
+Hi, so glad you wrote ❤️
+Who's waiting in your photo? Grandma? Dad? Maybe you, at five?
+Send it here (a phone snapshot of the print is fine) and tell me a sentence or two about who's in it.
+Within 24 hours I'll send you a free preview.
+And you'll see them again, moving, almost here with you.
 ```
 **/prices**
 ```
-One Moment: one photo, restoration, color and a short video: ₪49
-The Family: 5 photos and a montage video with music: ₪149 (best value)
-Memory Album: 10 photos and a 1 to 2 minute video with names and dates: ₪249
-You pay only after you've seen the preview and loved it.
+There are three ways to do it:
+
+📸 One Moment · ₪49
+One photo comes back to life: restoration, color and a few seconds of motion.
+
+👨‍👩‍👧 The Family · ₪149 (best value)
+5 photos in one video with music. Like flipping through an album, except everyone moves.
+
+📖 Memory Album · ₪249
+10 photos in a one-to-two minute video, with names and dates. For a family event, a bar mitzvah or a milestone birthday.
+
+And before anything else, you'll see a free preview. You only pay if it moved you.
+```
+**/preview**
+```
+Here it is 👆
+Give it a moment.
+If it touched you, I'll send the full video in high quality, without the watermark.
+And if anything isn't quite how you remember them, tell me and I'll fix it.
 ```
 **/pay**
 ```
-In Israel you can pay by Bit to 054-549-2399. From abroad we'll send you a secure payment link. The full video is sent right after payment 🎬
+Wonderful ❤️
+In Israel you can pay by Bit to 054-549-2399. From abroad I'll send you a secure payment link.
+Right after payment I'll send the full video, yours to keep and share with the whole family.
+```
+**/thanks**
+```
+Thank you for sharing this moment with me ❤️
+If you'd like to tell me how it felt to see it, I'd love to hear. Only if you feel like it.
 ```
 
 ## Consent before sharing a family's video (send after delivery)
