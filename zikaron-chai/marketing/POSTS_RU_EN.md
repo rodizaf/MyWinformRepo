@@ -5,7 +5,7 @@
 Меня зовут [имя], я открыл в Израиле небольшой бизнес: оживляю старые семейные фотографии.
 Реставрация, цвет и несколько секунд мягкого движения: улыбка, взгляд.
 До официального запуска 10 семей получат это бесплатно (пакет «Одно мгновение»).
-Как участвовать: пришлите в личные сообщения или в WhatsApp 054-549-2399
+Как участвовать: пришлите в личные сообщения или в WhatsApp 055-281-2632
 фото и пару предложений о человеке на нём. Выбираем по истории, это не розыгрыш.
 Запись до воскресенья 29.11, 22:00. Бесплатно, без данных карты.
 Если захотите потом рассказать, что думаете, будем рады, но это не условие.
@@ -33,7 +33,7 @@
 I'm [first name], and I've started a small business in Israel that brings old family photos back to life:
 restoration, color, and a few seconds of gentle motion, a smile or a glance.
 Before the official launch, 10 families will get it free ("One Moment" package).
-How to join: send a private message or WhatsApp +972 54-549-2399
+How to join: send a private message or WhatsApp +972 55-281-2632
 with a photo and two sentences about the person in it. Chosen by story, not a raffle.
 Open until Sunday 29 Nov, 22:00 Israel time. No payment, no card details needed.
 If you'd like to tell us what you thought afterwards, we'd love that, but it's not a condition.
